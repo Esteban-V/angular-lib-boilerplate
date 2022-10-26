@@ -6,6 +6,8 @@
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+Run `ng generate library library-name` to create a new library project.
+
 The `public-api.ts` file is going to be the entry point to your library. This is where you’ll export all the files that you want the user to be able to use. So any files that you export from this file will be accessible to the users who install your library.
 
 ## Development server
