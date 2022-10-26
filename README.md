@@ -4,17 +4,13 @@
 
 ### Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To create a new component, run `npm run generate <component-name>` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module <name>`.
 
 Run `ng generate library library-name` to create a new library project.
 
 The `public-api.ts` file is going to be the entry point to your library. This is where you’ll export all the files that you want the user to be able to use. So any files that you export from this file will be accessible to the users who install your library.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-Creating a new component will 
+After creating a new component, you'll need to add its corresponding exports in the `public-api.ts` file.
 
 ## Build
 
@@ -29,7 +25,7 @@ Now that we have this build ready, we can use it in our project just like we wou
 ## Publishing to NPM
 
 ```bash
-cd .\dist\initial-component\   //WILL TAKE YOU INSIDE YOUR DIST FOLDER
+cd .\dist\initial-component   //WILL TAKE YOU INSIDE YOUR DIST FOLDER
 npm publish
 ```
 
